@@ -1,0 +1,48 @@
+
+*{
+    color: rgb(255, 0, 0);
+}
+
+
+
+.layout-grow {
+    flex-grow: 1;
+}
+
+.header-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    height: 10vh;
+}
+
+.header-button {
+    width: 40px;
+    height: 40px;
+    color: black;
+}
+
+.header-options-nav {
+    position: absolute;
+    left: 50px;
+    top: 25px;
+    color: black;
+}
+.header-options-user {
+    position: absolute;
+    right: 50px;
+    top: 25px;
+    color: black;
+}
+
+.header-options {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+    color: black;
+    
+}
+
+
+    
