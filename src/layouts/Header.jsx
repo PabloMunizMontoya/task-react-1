@@ -1,6 +1,10 @@
 /* Importamos react y hook useState */
 import React, { useState } from "react";
 
+/* import { link as Anchor } from 'react-router-dom'
+// componente para cambiar los h Ref, esto funciona igual que un ancor linea 39, es buena practica cambiarle el nombre a este componente por que suele haber varios componentes link de varias librearías. antes {link} ahora {Anchor}  */
+
+
 
 const Header = ({type,options}) => {
     /* Función que renderiza mi menu */
