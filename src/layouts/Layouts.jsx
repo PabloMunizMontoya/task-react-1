@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Outlet } from 'react-router'
+
 import Footer from "./Footer";
 
 import Header from "./Header"
@@ -24,7 +26,7 @@ const Layouts = (props) => {
         <Header type='nav' options={optNav} />
         <Header type='user' options={optUser} />
       </div>
-      <div className='layout-grow'>{props.children}</div>
+      <div className='layout-grow'><Outlet /></div>
       <Footer/>
     </div>
     );
